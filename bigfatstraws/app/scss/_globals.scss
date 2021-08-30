@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+
+    @include breakpoints-up(large) {
+        padding-right: 7rem; 
+        padding-left: 7rem;   
+    }
+
+    @include breakpoints-down(large) {
+        padding-right: 1rem;   
+        padding-left: 1rem;
+    }
+}

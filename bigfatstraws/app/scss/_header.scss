@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    &__logo {
+        cursor: pointer;
+
+        img {
+            max-width: 4rem;
+        }
+    }
+
+    &__cta {
+        width: 12rem;
+        height: 4rem;
+        border-radius: 1rem;
+        border-style: none;
+        padding-top: 1.4rem;
+        background-color: $gray; 
+        color: $darkBlue;
+        font-weight: $fntweightseven;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all ease-in-out 200ms;
+        
+    
+        @include breakpoints-down(medium) {
+            width: 10rem;
+            height: 4rem;
+        }
+    
+        &:hover {
+            background-color: $yellow;
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.specials {
+    justify-content: center;
+    padding-top: 5rem;
+    align-items: center;
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.875rem;
+
+        @include breakpoints-up(medium) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include breakpoints-up(large) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        &.gridone {
+            margin-bottom: 3rem;
+        }
+
+        img {
+            max-width: 100%;
+            width: 20rem;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: ease-in-out 100ms;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
