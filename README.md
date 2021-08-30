@@ -22,8 +22,6 @@ This is a profile website design for a Milk Tea SHop "Big Fat Straws". It's not 
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-framework
 - SASS - For styles
 
 ## Author
