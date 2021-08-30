@@ -9,10 +9,9 @@ This is a profile website design for a Milk Tea SHop "Big Fat Straws". It's not 
 
 
 ### Screenshot
-
-![](/desktop_design.png)
-![](/design/mobile_design.png)
-![](/design/tablet_design.png)
+![](desktop_design.png)
+![](design/mobile_design.png)
+![](design/tablet_design.png)
 
 ### Links
 
