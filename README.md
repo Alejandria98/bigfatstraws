@@ -1,4 +1,4 @@
-# Frontend Mentor - Big Fat Straws Profile Site
+# Big Fat Straws Profile Site
 
 This is a profile website design for a Milk Tea SHop "Big Fat Straws". It's not a published site. The coder tried to design  its website to improve coding skills through personal concept design.
 ## Table of contents
@@ -22,10 +22,12 @@ This is a profile website design for a Milk Tea SHop "Big Fat Straws". It's not 
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Mobile-first workflow
+framework
 - SASS - For styles
 
 ## Author
 
-- Website - [Alejandria Canilang](https://www.your-site.com)
+- Website - [Alejandria Canilang](https://alejandria98.github.io/)
 - Facebook - [Alejandria Canilang](https://www.facebook.com/alejandria.ac/)
 
